@@ -1,0 +1,220 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	min-width: 1000px;
+	font-family: Arial;
+	background-color: #F5F5F5;
+}
+
+h2 {
+	font-size: 20px;
+	padding: 27px 0 27px 18px;
+	margin: 0 0 34px;
+/*	border-bottom: 1px solid #e5e5e5;*/
+}
+
+
+.fixed-container {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+
+#column-list {
+	background-color: #F5F5F5;
+	width: 470px;
+	margin-right: 20px;
+	display: inline-block;
+	float: left;
+
+}
+
+#column-list h2 {
+	margin-bottom: 0;
+	background-color: #F5F5F5;
+}
+
+#column-center {
+	background-color: green;
+	width: 450px;
+	margin-left: 20px;
+	float: left;
+}
+
+#central-container .fixed-container {
+	overflow-y: hidden;
+}
+
+#central-container {
+	padding-top: 64px;
+	background-color: #F5F5F5;
+}
+
+#column-add {
+	width: 450px;
+	display: inline-block;
+	background-color: #F5F5F5;
+}
+
+#column-add h2 {
+	margin-bottom: 0;
+	background-color: #F5F5F5;
+}
+
+
+.task {
+	padding-left: 18px;
+	padding-top: 10px;
+	font-size: 14px;
+	background-color: #ffffff;
+	margin-bottom: 20px;
+
+}
+
+.add-task {
+	padding-left: 18px;
+	padding-top: 10px;
+	font-size: 14px;
+	background-color: #ffffff;
+	margin-bottom: 20px;
+
+}
+
+.news-item-text {
+	margin-bottom: 20px;
+
+}
+
+.news-item-props {
+	font-size: 12px;
+	position: relative;
+}
+
+.news-item-props a {
+	color: #91919f;
+}
+
+.task-delete {
+	position: absolute;
+	top: 3px;
+	width: 11px;
+	height: 11px;
+	left: 400px;
+	padding-left: 15px;
+	background-image: url('icon-delete.png');
+	background-repeat: no-repeat;
+}
+
+.task-hide-desc {
+	position: absolute;
+	top: 3px;
+	width: 11px;
+	height: 11px;
+	left: 420px;
+	padding-left: 15px;
+	background-image: url('icon-hide.png');
+	background-repeat: no-repeat;
+}
+
+.task-description {
+	min-height: 75px;
+	padding-top: 10px;
+	color: #91919f;
+	display: block;
+}
+
+.news-time {
+	position: absolute;
+	top: 0;
+	left: 120px;
+	padding-left: 15px;
+	background-image: url('icon-delete.png');
+	background-repeat: no-repeat;
+}
+
+.news-comments-count {
+	position: absolute;
+	top: 0;
+	left: 180px;
+	padding-left: 15px;
+	background-image: url('comment.png');
+	background-repeat: no-repeat;
+}
+
+
+.newStyle {
+	color: red;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#changecolor, #textA {
+	margin: 20px;
+}
+
+#textA {
+	width: 300px;
+	height: 200px; 
+}
+
+.task-main-info {
+	border-bottom: 2px solid #f7f7f7;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.add-task {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.task-form {
+	margin-top: 20px auto;
+}
+
+.task-form label, input, textarea {
+	display: block;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 390px;
+	
+}
+
+label {
+	color: #91919f;
+	margin-left: 20px;
+	
+}
+
+input, textarea {
+	background-color: #FCFCFC;
+	border: 0.5px solid #F6F6F6;
+}
+
+#add-task-name {
+	height: 45px;
+}
+
+#add-task-desc {
+	height: 230px;
+}
+
+#add-task-button {
+	color: #fff;
+	background-color: #2073FD;
+	height: 50px;
+	width: 200px;
+	margin-left: 20px;
+	border: 0;
+}
+
+.task-empty {
+	color: #91919f;
+	padding-left: 20px;
+	padding-top: 50px;
+}
+
+
